@@ -101,7 +101,7 @@ public class ServicioWebRest extends Activity {
 		        {
 					//Construimos el objeto cliente en formato JSON
 					JSONObject dato = new JSONObject();
-					
+					//Objeto
 					dato.put("Id", Integer.parseInt(txtId.getText().toString()));
 					dato.put("Nombre", txtNombre.getText().toString());
 					dato.put("Telefono", Integer.parseInt(txtTelefono.getText().toString()));
